@@ -9,16 +9,17 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/1c4b9930f2.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(61, 64, 67)">
+<nav class="navbar navbar-expand-md navbar-dark" style="background-color: rgb(61, 64, 67)">
     <img src="images/logo.png" alt="" class="logo">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbar1">
+    <div class="collapse navbar-collapse" id="navbar1" style="margin-left: 20px;">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Жанры</a>
@@ -34,22 +35,19 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Клиенты</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Библиотекари</a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        <div class="form">
+          <form class="form-inline my-2 my-lg-0">
+            <input type="text" placeholder="Search...">
+            <button type="submit"></button>
+          </form>
+        </div>
+        <i class="fas fa-user" style="font-size: 1.4rem;color: white;margin: 0 10px;"></i>
     </div>
 </nav>
 <main>
@@ -90,14 +88,14 @@
    
 
 <div class="lists img-custom"> 
-  <div id="section1" class="container-fluid" style="background-color:#333536;">
+  <div id="section1" class="container-fluid">
   <div class="container"> 
     <div class="row justify-content-between">
 
     <div class="col-4 align-self-start">
       <h1>Фантастика </h1> 
     </div>
-    <div class="align-self-end text-right" > 
+    <div class="more"> 
       <a href="index_genre_fantastic.html" >Ещё...</a>
     </div>
 
@@ -129,14 +127,14 @@
 </div>
 
 
-<div id="section2" class="container-fluid" style="background-color:#333536;">
+<div id="section2" class="container-fluid">
   <div class="container">
     <div class="row justify-content-between">
 
     <div class="col-4 align-self-start">
       <h1>Комедия</h1> 
     </div>
-    <div class="align-self-end text-right" > 
+    <div class="more"> 
       <a href="index_genre_comedy.html" >Ещё...</a>
     </div>
 
@@ -166,14 +164,14 @@
   </div>
 </div>
 
-<div id="section3" class="container-fluid" style="background-color:#333536;">
+<div id="section3" class="container-fluid">
   <div class="container">
     <div class="row justify-content-between">
 
     <div class="col-4 align-self-start">
       <h1>Экшн</h1>
     </div>
-    <div class="align-self-end text-right" > 
+    <div class="more"> 
       <a href="index_genre_action.html" >Ещё...</a>
     </div>
 
@@ -209,30 +207,30 @@
     <div class="col-4 align-self-start">
       <h1>Ужасы</h1>
     </div>
-    <div class="align-self-end text-right" > 
+    <div class="more"> 
       <a href="index_genre_horrors.html" >Ещё...</a>
     </div>
 
     </div>
     <div class="row">
         <div class="col">
-            <img src="images/poster_1.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_1.png" class="rounded" alt="">
             <p>Описание к фильму #1</p>
         </div>
         <div class="col">
-            <img src="images/poster_2.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_2.png" class="rounded" alt="">
             <p>Описание к фильму #2</p>
         </div>
         <div class="col">
-            <img src="images/poster_3.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_3.png" class="rounded" alt="">
             <p>Описание к фильму #3</p>
         </div>
         <div class="col">
-            <img src="images/poster_4.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_4.png" class="rounded" alt="">
             <p>Описание к фильму #4</p>
         </div>
         <div class="col">
-            <img src="images/poster_5.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_5.png" class="rounded" alt="">
             <p>Описание к фильму #5</p>
         </div>
     </div>
@@ -246,30 +244,30 @@
     <div class="col-4 align-self-start">
       <h1>Фэнтези</h1>
     </div>
-    <div class="align-self-end text-right" > 
+    <div class="more"> 
       <a href="index_genre_fantasy.html" >Ещё...</a>
     </div>
 
     </div>
     <div class="row">
         <div class="col">
-            <img src="images/poster_1.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_1.png" class="rounded" alt="">
             <p>Описание к фильму #1</p>
         </div>
         <div class="col">
-            <img src="images/poster_2.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_2.png" class="rounded" alt="">
             <p>Описание к фильму #2</p>
         </div>
         <div class="col">
-            <img src="images/poster_3.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_3.png" class="rounded" alt="">
             <p>Описание к фильму #3</p>
         </div>
         <div class="col">
-            <img src="images/poster_4.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_4.png" class="rounded" alt="">
             <p>Описание к фильму #4</p>
         </div>
         <div class="col">
-            <img src="images/poster_5.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_5.png" class="rounded" alt="">
             <p>Описание к фильму #5</p>
         </div>
     </div>
@@ -283,30 +281,30 @@
     <div class="col-4 align-self-start">
       <h1>Боевик</h1>
     </div>
-    <div class="align-self-end text-right" > 
+    <div class="more"> 
       <a href="index_genre_militant.html" >Ещё...</a>
     </div>
 
     </div>
     <div class="row">
         <div class="col">
-            <img src="images/poster_1.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_1.png" class="rounded" alt="">
             <p>Описание к фильму #1</p>
         </div>
         <div class="col">
-            <img src="images/poster_2.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_2.png" class="rounded" alt="">
             <p>Описание к фильму #2</p>
         </div>
         <div class="col">
-            <img src="images/poster_3.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_3.png" class="rounded" alt="">
             <p>Описание к фильму #3</p>
         </div>
         <div class="col">
-            <img src="images/poster_4.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_4.png" class="rounded" alt="">
             <p>Описание к фильму #4</p>
         </div>
         <div class="col">
-            <img src="images/poster_5.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_5.png" class="rounded" alt="">
             <p>Описание к фильму #5</p>
         </div>
     </div>
@@ -320,30 +318,30 @@
         <div class="col-4 align-self-start">
           <h1>Мелодрамма</h1>
         </div>
-        <div class="align-self-end text-right" > 
+        <div class="more"> 
           <a href="index_genre_melodrama.html" >Ещё...</a>
         </div>
 
       </div>
     <div class="row">
         <div class="col">
-            <img src="images/poster_1.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_1.png" class="rounded" alt="">
             <p>Описание к фильму #1</p>
         </div>
         <div class="col">
-            <img src="images/poster_2.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_2.png" class="rounded" alt="">
             <p>Описание к фильму #2</p>
         </div>
         <div class="col">
-            <img src="images/poster_3.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_3.png" class="rounded" alt="">
             <p>Описание к фильму #3</p>
         </div>
         <div class="col">
-            <img src="images/poster_4.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_4.png" class="rounded" alt="">
             <p>Описание к фильму #4</p>
         </div>
         <div class="col">
-            <img src="images/poster_5.png" class="rounded" alt="" style="max-width:100%; height: 240px;">
+            <img src="images/poster_5.png" class="rounded" alt="">
             <p>Описание к фильму #5</p>
         </div>
     </div>
@@ -357,7 +355,7 @@
         <div class="col-4 align-self-start">
         <h1>Триллер</h1>
         </div>
-        <div class="align-self-end text-right" > 
+        <div class="more"> 
           <a href="index_genre_thriller.html" >Ещё...</a>
         </div>
 
@@ -391,7 +389,24 @@
 
 
 </main>
-<footer></footer>
+<footer>
+  <div class="container-fluid py-4" style="background: #494a4a">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 m-auto">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam sint eos quibusdam reiciendis quas dolor saepe vitae, dolorum aut ea voluptatum, eligendi accusantium sequi vel nihil quisquam! Nam, rerum, ipsam.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <span class="copyright float-right">© 2019 Aleksey Asselborn & Alexander Demin<br> All Rights Reserved</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
